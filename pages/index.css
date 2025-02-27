@@ -183,7 +183,7 @@
   margin: 0;
   padding: 0;
   border: none;
-  max-width: 350px;
+  max-width: px;
 }
 
 .form__input {
@@ -232,7 +232,7 @@
   background-color: #3f96f3;
 }
 
-.form__label_type_checkbox {
+.form__checkboxlabel {
   display: flex;
   align-items: center;
   font-family: Inter;
