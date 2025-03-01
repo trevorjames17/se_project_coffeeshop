@@ -8,60 +8,69 @@
 
 .menu__title {
   font-family: "Inter";
-
   font-style: normal;
-
   font-weight: 500;
-
   font-size: 44px;
-
   line-height: 52px;
+  padding-top: 100px;
+  margin: 0;
+  text-align: center;
 }
 
 .menu__subtitle {
   font-family: "Noto Serif";
-
   font-style: normal;
-
   font-weight: normal;
-
   font-size: 20px;
-
   line-height: 30px;
+  text-align: center;
+  padding-top: 24px;
+  margin: 0;
 }
 
 .menu__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 100px;
+  margin: 0;
 }
 
 .card {
-}
-
-.card__content {
+  list-style: none;
+  padding-right: 100px;
+  padding-bottom: 100px;
+  width: 540px;
 }
 
 .card__title {
   font-family: "Inter";
-
   font-style: normal;
-
   font-weight: bold;
-
   font-size: 20px;
-
   line-height: 30px;
+  padding-left: 40px;
+}
+
+.card__content {
+  margin: 0;
 }
 
 .card__list-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding-bottom: 16px;
+  margin: 0;
+  list-style: none;
   font-family: "Noto Serif";
-
   font-style: normal;
-
   font-weight: normal;
-
   font-size: 16px;
-
   line-height: 20px;
 }
 
 .card__list-divider {
+  flex-grow: 1;
+  border-bottom: 2px solid black;
 }
