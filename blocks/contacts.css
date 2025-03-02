@@ -42,6 +42,7 @@
   padding: 119px 80px 173px 20px;
   max-width: 660px;
   gap: 20px;
+  margin: 0;
 }
 
 .about__paragraph {
