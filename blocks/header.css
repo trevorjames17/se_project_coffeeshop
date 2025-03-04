@@ -1,10 +1,12 @@
 .header {
   display: flex;
   flex-direction: column;
+  position: relative;
+  z-index: 1;
   height: 800px;
   padding: 30px 80px 40px;
-  position: relative;
-  background-color: #ffffff;
+  box-sizing: border-box;
+  background-color: #fff;
   background-image: url(../images/background_header.svg);
   background-size: cover;
   background-position: center;
@@ -40,6 +42,7 @@
 
 .header__image {
   position: absolute;
+  z-index: -1;
   top: 124px;
   right: 5px;
   height: 568px;
